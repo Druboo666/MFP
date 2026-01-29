@@ -279,7 +279,6 @@ async def _check_and_extract_sportsonline_stream(
 
 
 @proxy_router.head("/hls/manifest.m3u8")
-@proxy_router.head("/hls/manifest.m3u8")
 @proxy_router.get("/hls/manifest.m3u8")
 async def hls_manifest_proxy(
     request: Request,
